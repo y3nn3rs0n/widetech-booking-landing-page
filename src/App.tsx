@@ -127,7 +127,7 @@ export default function App() {
           {/* Download CTA Button */}
           <div className="flex items-center gap-3">
             <a
-              href="/api/download"
+              href="./widetech-booking.zip"
               className="px-5 py-2 bg-slate-900 hover:bg-slate-800 dark:bg-blue-600 dark:hover:bg-blue-700 text-white rounded-full text-xs font-semibold transition-all flex items-center gap-1.5 cursor-pointer shadow-md"
             >
               <Download className="w-3.5 h-3.5" />
@@ -165,7 +165,7 @@ export default function App() {
             {/* Two Call to actions buttons */}
             <div className="flex flex-col sm:flex-row gap-4 items-stretch sm:items-center max-w-md pt-2">
               <a
-                href="/api/download"
+                href="./widetech-booking.zip"
                 className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold font-sans text-sm tracking-tight transition-transform flex items-center justify-center gap-2 cursor-pointer shadow-lg shadow-blue-200 dark:shadow-none hover:scale-102"
               >
                 <Download className="w-4.5 h-4.5" />
@@ -487,8 +487,8 @@ export default function App() {
               <p className="text-slate-500 dark:text-slate-400 text-xs leading-relaxed mt-2">
                 Haz click en el botón de descarga para obtener el paquete completo y funcional del plugin.
               </p>
-              <a 
-                href="/api/download" 
+                <a
+                  href="./widetech-booking.zip"
                 className="mt-4 px-3 py-1.5 bg-blue-100 hover:bg-blue-200 dark:bg-blue-900/40 dark:hover:bg-blue-900/60 text-blue-700 dark:text-blue-300 rounded text-[11px] font-bold inline-flex items-center gap-1 transition-colors w-full justify-center"
               >
                 <Download className="w-3.5 h-3.5" />
@@ -675,7 +675,7 @@ export default function App() {
 
             <div className="pt-2 w-full max-w-md space-y-3 flex flex-col items-center">
               <a
-                href="/api/download"
+                href="./widetech-booking.zip"
                 className="w-full px-6 py-4 rounded-xl text-white font-bold text-sm tracking-tight transition-all flex items-center justify-center gap-2 cursor-pointer shadow-lg shadow-blue-500/10 bg-blue-600 hover:bg-blue-700 hover:-translate-y-0.5 active:translate-y-0"
               >
                 <Download className="w-4.5 h-4.5" />
