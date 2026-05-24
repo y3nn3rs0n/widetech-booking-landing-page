@@ -195,7 +195,7 @@ export default function App() {
           </div>
 
           {/* Right Visual Interactive Mockups */}
-          <div className="h-[430px] rounded-3xl relative flex items-center justify-center">
+          <div className="h-[430px] rounded-3xl relative flex items-center justify-center my-8 lg:my-0">
             {/* Ambient Back Glow */}
             <div className="absolute inset-x-0 bottom-0 top-10 bg-gradient-to-tr from-blue-500/10 to-indigo-500/5 blur-3xl -z-10 animate-pulse" />
 
