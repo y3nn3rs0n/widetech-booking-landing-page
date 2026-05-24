@@ -1,3 +1,4 @@
+/// <reference types="vite/client" />
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { 
