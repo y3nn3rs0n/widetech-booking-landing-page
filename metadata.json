@@ -1,0 +1,6 @@
+{
+  "name": "WIdeTech Booking Landing Page",
+  "description": "Landing page moderna y de alto rendimiento para WIdeTech Booking, el plugin de reservas más ligero y rápido para WordPress.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
