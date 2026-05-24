@@ -521,7 +521,7 @@ export default function BookingDemo({ isOpen, onClose, primaryColor = "#2563eb",
                       Nueva Prueba
                     </button>
                     <a
-                      href="./widetech-booking.zip"
+                      href={`${import.meta.env.BASE_URL}widetech-booking.zip`}
                       className="flex-1 px-4 py-2.5 rounded-lg text-xs font-semibold text-white bg-blue-600 hover:bg-blue-700 transition-all inline-flex items-center justify-center gap-1.5 cursor-pointer shadow-md"
                       style={{ backgroundColor: themeType === "custom" ? "#10b981" : primaryColor }}
                     >
